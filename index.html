@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2a5897d74c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Personal Portfolio Website</title>
   </head>
   <body>
@@ -37,11 +41,149 @@
             <img src="images/3.png" alt="user" />
           </div>
           <div class="about-col-2">
-            <h1>About Me</h1>
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello Prabhat Ranjan Shahi! It's great to hear that you're a MERN
+              (MongoDB, Express.js, React.js, Node.js) stack developer. The MERN
+              stack is a popular combination of technologies for building web
+              applications.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>FrontEnd</span><br />Designing FrontEnd</li>
+                <li><span>Backend Development</span><br />Designing Backend</li>
+                <li>
+                  <span>Full Stack Developer</span><br />Designing full Stack
+                  web App
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>FrontEnd</span><br />Designing FrontEnd</li>
+                <li><span>Backend Development</span><br />Designing Backend</li>
+                <li>
+                  <span>Full Stack Developer</span><br />Designing full Stack
+                  web App
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>FrontEnd</span><br />Designing FrontEnd</li>
+                <li><span>Backend Development</span><br />Designing Backend</li>
+                <li>
+                  <span>Full Stack Developer</span><br />Designing full Stack
+                  web App
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Service Section -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Full Stack Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              voluptatibus quaerat aliquid reprehenderit ullam aperiam facilis
+              harum aut s!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              voluptatibus quaerat aliquid reprehenderit ullam aperiam facilis
+              harum aut s!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>Backend Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              voluptatibus quaerat aliquid reprehenderit ullam aperiam facilis
+              harum aut s!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--PortFolio Section  -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="images/4.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                This app will connect you from talented people around the world
+              </p>
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/5.png" alt="" />
+            <div class="layer">
+              <h3>Shopping App</h3>
+              <p>
+                This app will connect you from Shoppkeppr where you can buy and
+                sell the things
+              </p>
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/6.png" alt="" />
+            <div class="layer">
+              <h3>Blog App</h3>
+              <p>
+                This app will connect you from talented people around the world
+              </p>
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
